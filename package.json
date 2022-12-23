@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/V1adimirrr/frontend-project-44/issues"
   },
-  "homepage": "https://github.com/V1adimirrr/frontend-project-44#readme"
+  "homepage": "https://github.com/V1adimirrr/frontend-project-44#readme",
+  "devDependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
