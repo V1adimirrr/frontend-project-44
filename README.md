@@ -9,3 +9,7 @@
 ## Brain-calc
 
 <a href="https://asciinema.org/a/laKFWb7n6Dp9GCBgQkzTrP113"><img src="https://avatars.githubusercontent.com/u/6506055?s=280&v=4" width = "30" height = "30" /></a>
+
+## Brain-gcd
+
+<a href=" https://asciinema.org/a/yDoJiigVebbeA2ArLYHsnkdD2"><img src="https://avatars.githubusercontent.com/u/6506055?s=280&v=4" width = "30" height = "30" /></a>
