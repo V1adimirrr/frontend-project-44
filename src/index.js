@@ -1,6 +1,7 @@
 import readlineSync from 'readline-sync';
 
 const getRandomNumber = (min, max) =>
+  // eslint-disable-next-line implicit-arrow-linebreak
   Math.floor(min + Math.random() * (max - min - 1));
 
 const startGame = (rules, corectAnswer) => {
@@ -16,6 +17,7 @@ const startGame = (rules, corectAnswer) => {
 
     if (userAnswer !== answer) {
       console.log(
+        // eslint-disable-next-line comma-dangle
         `'${userAnswer}' is wrong answer ;(. Correct answer was '${answer}'`
       );
       return console.log(`Let's try again, ${userName}!`);
