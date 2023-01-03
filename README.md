@@ -4,7 +4,7 @@
 
 ## Brain-even
 
-<a href="https://codeclimate.com/github/V1adimirrr/frontend-project-44/maintainability"><img src="https://avatars.githubusercontent.com/u/6506055?s=280&v=4" width = "30" height = "30" /></a>
+<a href="https://asciinema.org/a/lXiRHDDOfyczwqTwIqKPZl8iq"><img src="https://avatars.githubusercontent.com/u/6506055?s=280&v=4" width = "30" height = "30" /></a>
 
 ## Brain-calc
 
@@ -17,3 +17,7 @@
 ## Brain-progression
 
 <a href="https://asciinema.org/a/riBQqiqktD39UvNG5sHGQy2jU"><img src="https://avatars.githubusercontent.com/u/6506055?s=280&v=4" width = "30" height = "30" /></a>
+
+## Brain-prime
+
+<a href="https://asciinema.org/a/Y7bQNE708j9UCfyxeV06XfONm"><img src="https://avatars.githubusercontent.com/u/6506055?s=280&v=4" width = "30" height = "30" /></a>
