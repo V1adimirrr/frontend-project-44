@@ -16,8 +16,8 @@ const gcd = (number1, number2) => {
 };
 
 const corectAnswer = () => {
-  const number1 = getRandomNumber(10);
-  const number2 = getRandomNumber(10);
+  const number1 = getRandomNumber(0, 10);
+  const number2 = getRandomNumber(0, 10);
 
   const question = `${number1} ${number2}`;
   const answer = gcd(number1, number2);

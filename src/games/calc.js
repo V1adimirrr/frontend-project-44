@@ -14,11 +14,11 @@ const calc = (firstNumber, secondNumber, operators) => {
 };
 
 const corectAnswer = () => {
-  const number1 = getRandomNumber(10);
-  const number2 = getRandomNumber(10);
+  const number1 = getRandomNumber(0, 10);
+  const number2 = getRandomNumber(0, 10);
 
   const operators = ['+', '-', '*'];
-  const getRandomOperators = operators[getRandomNumber(operators.length)];
+  const getRandomOperators = operators[getRandomNumber(0, operators.length)];
 
   const question = `${number1} ${getRandomOperators} ${number2}`;
   const answer = calc(number1, number2, getRandomOperators);
