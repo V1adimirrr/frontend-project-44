@@ -3,8 +3,6 @@ import readlineSync from 'readline-sync';
 const getRandomNumber = (min, max) =>
   Math.floor(min + Math.random() * (max - min - 1));
 
-const getEvenNumber = (number) => number % 2 === 0;
-
 const startGame = (rules, corectAnswer) => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
@@ -28,4 +26,4 @@ const startGame = (rules, corectAnswer) => {
   return console.log(`Congratulations, ${userName}!`);
 };
 
-export { getRandomNumber, getEvenNumber, startGame };
+export { getRandomNumber, startGame };

@@ -1,11 +1,13 @@
-import { getRandomNumber, getEvenNumber, startGame } from '../index.js';
+import { getRandomNumber, startGame } from '../index.js';
 
 const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
+const isEven = (number) => number % 2 === 0;
+
 const corectAnswer = () => {
-  const number = getRandomNumber(25);
+  const number = getRandomNumber(0, 25);
   const question = String(number);
-  const answer = getEvenNumber(number) ? 'yes' : 'no';
+  const answer = isEven(number) ? 'yes' : 'no';
 
   return [question, answer];
 };
