@@ -1,6 +1,7 @@
 import readlineSync from 'readline-sync';
 
-const getRandomNumber = (max) => Math.floor(Math.random() * max);
+const getRandomNumber = (min, max) =>
+  Math.floor(min + Math.random() * (max - min - 1));
 
 const getEvenNumber = (number) => number % 2 === 0;
 
@@ -17,7 +18,7 @@ const startGame = (rules, corectAnswer) => {
 
     if (userAnswer !== answer) {
       console.log(
-        `${userAnswer} is wrong answer ;(. Correct answer was '${answer}'`
+        `'${userAnswer}' is wrong answer ;(. Correct answer was '${answer}'`
       );
       return console.log(`Let's try again, ${userName}`);
     }
