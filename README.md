@@ -12,4 +12,8 @@
 
 ## Brain-gcd
 
-<a href=" https://asciinema.org/a/yDoJiigVebbeA2ArLYHsnkdD2"><img src="https://avatars.githubusercontent.com/u/6506055?s=280&v=4" width = "30" height = "30" /></a>
+<a href="https://asciinema.org/a/yDoJiigVebbeA2ArLYHsnkdD2"><img src="https://avatars.githubusercontent.com/u/6506055?s=280&v=4" width = "30" height = "30" /></a>
+
+## Brain-progression
+
+<a href="https://asciinema.org/a/riBQqiqktD39UvNG5sHGQy2jU"><img src="https://avatars.githubusercontent.com/u/6506055?s=280&v=4" width = "30" height = "30" /></a>
