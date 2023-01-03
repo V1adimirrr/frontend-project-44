@@ -18,7 +18,7 @@ const startGame = (rules, corectAnswer) => {
       console.log(
         `'${userAnswer}' is wrong answer ;(. Correct answer was '${answer}'`
       );
-      return console.log(`Let's try again, ${userName}`);
+      return console.log(`Let's try again, ${userName}!`);
     }
     console.log('Correct!');
   }
