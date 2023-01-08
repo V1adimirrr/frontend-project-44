@@ -3,14 +3,16 @@ import getRandomNumber from '../utils.js';
 
 const rules = 'What is the result of the expression?';
 
-const calc = (firstNumber, secondNumber, operators) => {
-  switch (operators) {
+const calc = (firstNumber, secondNumber, operator) => {
+  switch (operator) {
     case '+':
       return firstNumber + secondNumber;
     case '-':
       return firstNumber - secondNumber;
-    default:
+    case '*':
       return firstNumber * secondNumber;
+    default:
+      throw new Error(`Operator ${operator} - is incorrect`);
   }
 };
 
@@ -19,8 +21,9 @@ const makeRound = () => {
   const number2 = getRandomNumber(0, 10);
 
   const operators = ['+', '-', '*'];
-  const getRandomOperators = operators[getRandomNumber(0, operators.length)];
-
+  // eslint-disable-next-line operator-linebreak
+  const getRandomOperators =
+    operators[getRandomNumber(0, operators.length + 1)];
   const question = `${number1} ${getRandomOperators} ${number2}`;
   const answer = calc(number1, number2, getRandomOperators);
   return [question, String(answer)];
