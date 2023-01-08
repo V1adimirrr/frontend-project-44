@@ -25,8 +25,8 @@ const makeRound = () => {
   const getRandomOperators =
     operators[getRandomNumber(0, operators.length + 1)];
   const question = `${number1} ${getRandomOperators} ${number2}`;
-  const answer = calc(number1, number2, getRandomOperators);
-  return [question, String(answer)];
+  const answer = String(calc(number1, number2, getRandomOperators));
+  return [question, answer];
 };
 
 const runBrainCalc = () => runEngine(rules, makeRound);

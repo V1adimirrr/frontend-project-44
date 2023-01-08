@@ -21,9 +21,9 @@ const makeRound = () => {
   const number2 = getRandomNumber(1, 10);
 
   const question = `${number1} ${number2}`;
-  const answer = getGcd(number1, number2);
+  const answer = String(getGcd(number1, number2));
 
-  return [question, String(answer)];
+  return [question, answer];
 };
 
 const runBrainGcd = () => runEngine(rules, makeRound);

@@ -20,11 +20,11 @@ const makeRound = () => {
   const hiddenIndex = getRandomNumber(0, length);
   const progression = getProgression(start, step, length);
 
-  const answer = progression[hiddenIndex];
+  const answer = String(progression[hiddenIndex]);
   progression[hiddenIndex] = '..';
   const question = progression.join(' ');
 
-  return [question, String(answer)];
+  return [question, answer];
 };
 
 const runBrainPorgression = () => runEngine(rules, makeRound);
