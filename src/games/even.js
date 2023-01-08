@@ -1,11 +1,11 @@
-import startGame from '../index.js';
+import runEngine from '../index.js';
 import getRandomNumber from '../utils.js';
 
 const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const isEven = (number) => number % 2 === 0;
 
-const corectAnswer = () => {
+const makeRound = () => {
   const number = getRandomNumber(0, 25);
   const question = String(number);
   const answer = isEven(number) ? 'yes' : 'no';
@@ -13,6 +13,6 @@ const corectAnswer = () => {
   return [question, answer];
 };
 
-const runBrainEven = () => startGame(rules, corectAnswer);
+const runBrainEven = () => runEngine(rules, makeRound);
 
 export default runBrainEven;

@@ -1,4 +1,4 @@
-import startGame from '../index.js';
+import runEngine from '../index.js';
 import getRandomNumber from '../utils.js';
 
 const rules = 'What is the result of the expression?';
@@ -14,7 +14,7 @@ const calc = (firstNumber, secondNumber, operators) => {
   }
 };
 
-const corectAnswer = () => {
+const makeRound = () => {
   const number1 = getRandomNumber(0, 10);
   const number2 = getRandomNumber(0, 10);
 
@@ -26,6 +26,6 @@ const corectAnswer = () => {
   return [question, String(answer)];
 };
 
-const runBrainCalc = () => startGame(rules, corectAnswer);
+const runBrainCalc = () => runEngine(rules, makeRound);
 
 export default runBrainCalc;
