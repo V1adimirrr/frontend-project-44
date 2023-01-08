@@ -1,4 +1,4 @@
-import makeRound from '../index.js';
+import startGame from '../index.js';
 import getRandomNumber from '../utils.js';
 
 const rules = 'Find the greatest common divisor of given numbers.';
@@ -26,6 +26,6 @@ const corectAnswer = () => {
   return [question, String(answer)];
 };
 
-const runBrainGcd = () => makeRound(rules, corectAnswer);
+const runBrainGcd = () => startGame(rules, corectAnswer);
 
 export default runBrainGcd;
