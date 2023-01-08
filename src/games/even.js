@@ -1,4 +1,4 @@
-import startGame from '../index.js';
+import makeRound from '../index.js';
 import getRandomNumber from '../utils.js';
 
 const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
@@ -13,6 +13,6 @@ const corectAnswer = () => {
   return [question, answer];
 };
 
-const runBrainEven = () => startGame(rules, corectAnswer);
+const runBrainEven = () => makeRound(rules, corectAnswer);
 
 export default runBrainEven;

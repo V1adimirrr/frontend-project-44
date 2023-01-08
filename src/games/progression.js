@@ -1,4 +1,4 @@
-import startGame from '../index.js';
+import makeRound from '../index.js';
 import getRandomNumber from '../utils.js';
 
 const rules = 'What number is missing in the progression?';
@@ -27,6 +27,6 @@ const corectAnswer = () => {
   return [question, String(answer)];
 };
 
-const runBrainPorgression = () => startGame(rules, corectAnswer);
+const runBrainPorgression = () => makeRound(rules, corectAnswer);
 
 export default runBrainPorgression;
