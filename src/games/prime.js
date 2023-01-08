@@ -20,6 +20,6 @@ const corectAnswer = () => {
   return [question, answer];
 };
 
-const brainPrime = () => startGame(rules, corectAnswer);
+const runBrainPrime = () => startGame(rules, corectAnswer);
 
-export default brainPrime;
+export default runBrainPrime;

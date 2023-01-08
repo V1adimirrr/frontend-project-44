@@ -26,6 +26,6 @@ const corectAnswer = () => {
   return [question, String(answer)];
 };
 
-const brainPorgression = () => startGame(rules, corectAnswer);
+const runBrainPorgression = () => startGame(rules, corectAnswer);
 
-export default brainPorgression;
+export default runBrainPorgression;

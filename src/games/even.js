@@ -12,6 +12,6 @@ const corectAnswer = () => {
   return [question, answer];
 };
 
-const brainEven = () => startGame(rules, corectAnswer);
+const runBrainEven = () => startGame(rules, corectAnswer);
 
-export default brainEven;
+export default runBrainEven;
