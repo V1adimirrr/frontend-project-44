@@ -4,34 +4,35 @@
 
 [![Code Climate](https://api.codeclimate.com/v1/badges/ffa9afd06070a7800264/maintainability.svg)](https://codeclimate.com/github/V1adimirrr/frontend-project-44)
 
-## To start the game, you must enter the name of the game. For example: brain-even
+### The project consists of five games implemented on the command line
 
-## Brain-even
+To install a project, you need:
 
-### Игра "Проверка на чётность"
+```
+git clone git@github.com:V1adimirrr/frontend-project-44.git
+cd frontend-project-44
+make install
+npm ci
+```
 
-<a href="https://asciinema.org/a/lXiRHDDOfyczwqTwIqKPZl8iq"><img src="https://avatars.githubusercontent.com/u/6506055?s=280&v=4" width = "30" height = "30" /></a>
+To start the game, you must enter the name of the game. For example: brain-even
 
-## Brain-calc
+### Brain-even ("Parity check")
 
-### Игра "Калькулятор"
+[![asciicast](https://asciinema.org/a/A7FWolPuSNLLQAhiVSZ7JKIjS.svg)](https://asciinema.org/a/A7FWolPuSNLLQAhiVSZ7JKIjS)
 
-<a href="https://asciinema.org/a/laKFWb7n6Dp9GCBgQkzTrP113"><img src="https://avatars.githubusercontent.com/u/6506055?s=280&v=4" width = "30" height = "30" /></a>
+### Brain-calc ("Calculator")
 
-## Brain-gcd
+[![asciicast](https://asciinema.org/a/8pv52C5AKG7OgUikVjGU6tGo4.svg)](https://asciinema.org/a/8pv52C5AKG7OgUikVjGU6tGo4)
 
-### Игра "Наибольший общий делитель"
+### Brain-gcd ("Greatest Common Divisor")
 
-<a href="https://asciinema.org/a/yDoJiigVebbeA2ArLYHsnkdD2"><img src="https://avatars.githubusercontent.com/u/6506055?s=280&v=4" width = "30" height = "30" /></a>
+[![asciicast](https://asciinema.org/a/AYvlxtPPTk8PApsrpbRZie6z6.svg)](https://asciinema.org/a/AYvlxtPPTk8PApsrpbRZie6z6)
 
-## Brain-progression
+### Brain-progression ("Arithmetic progression")
 
-### Игра "Арифметическая прогрессия"
+[![asciicast](https://asciinema.org/a/spjQSPDQMgQQrIKLPgrZbTw3E.svg)](https://asciinema.org/a/spjQSPDQMgQQrIKLPgrZbTw3E)
 
-<a href="https://asciinema.org/a/riBQqiqktD39UvNG5sHGQy2jU"><img src="https://avatars.githubusercontent.com/u/6506055?s=280&v=4" width = "30" height = "30" /></a>
+### Brain-prime ("Is it a prime number?")
 
-## Brain-prime
-
-### Игра "Простое ли число?"
-
-<a href="https://asciinema.org/a/Y7bQNE708j9UCfyxeV06XfONm"><img src="https://avatars.githubusercontent.com/u/6506055?s=280&v=4" width = "30" height = "30" /></a>
+[![asciicast](https://asciinema.org/a/Y7bQNE708j9UCfyxeV06XfONm.svg)](https://asciinema.org/a/Y7bQNE708j9UCfyxeV06XfONm)
