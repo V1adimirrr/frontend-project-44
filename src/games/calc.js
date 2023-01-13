@@ -22,10 +22,9 @@ const makeRound = () => {
 
   const operators = ['+', '-', '*'];
   // eslint-disable-next-line operator-linebreak
-  const getRandomOperators =
-    operators[getRandomNumber(0, operators.length + 1)];
-  const question = `${number1} ${getRandomOperators} ${number2}`;
-  const answer = String(calc(number1, number2, getRandomOperators));
+  const randomOperator = operators[getRandomNumber(0, operators.length + 1)];
+  const question = `${number1} ${randomOperator} ${number2}`;
+  const answer = String(calc(number1, number2, randomOperator));
   return [question, answer];
 };
 
